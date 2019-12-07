@@ -1,0 +1,10 @@
+body {
+    background: #a7e6f5;
+    font-size: 22px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.content {
+    width: 780px;
+    margin: 0 auto;
+}

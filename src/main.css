@@ -1,0 +1,14 @@
+.animals {
+    background-image: url('./animals.jpg');
+    background-repeat: no-repeat;;
+    background-size: contain;
+    width: 100%;
+    height: 350px;
+}
+
+.title {
+    font-family: 'Ultra', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px lightsalmon;
+}
