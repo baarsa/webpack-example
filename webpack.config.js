@@ -1,5 +1,5 @@
 const path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -33,12 +33,14 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             filename: './index.html',
-            chunks: ['main']
+            chunks: ['main'],
+            title: 'Main Page'
         }),
         new HtmlWebpackPlugin({
             hash: true,
             filename: './article.html',
-            chunks: ['article']
+            chunks: ['article'],
+            title: 'Article Page'
         }),
     ],
     devtool: 'cheap-module-eval-source-map'
